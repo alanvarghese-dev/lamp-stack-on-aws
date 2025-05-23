@@ -1,0 +1,29 @@
+---
+
+- name: LAMP Stack Setup on Ubuntu
+  hosts: webserver
+  become: yes
+
+  tasks:
+    - name: Update apt cache
+      apt:
+        update_cache: yes
+
+    - name: Install Apache
+      apt:
+        name: apache2
+        state: present
+
+    - name: Install PHP and dependencies
+      apt: 
+        name:
+          - php
+          - libapache2-mod-php
+          - php-mysql
+        state: present
+
+    - name: Install MySQL Server
+      apt: 
+        name: mysql-server
+        state: present
+

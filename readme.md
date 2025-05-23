@@ -1,70 +1,97 @@
-# LAMP Stack Deployment on AWS (Ubuntu)
+# 🔧 LAMP Stack Deployment Projects: Manual & Automated (Ansible)
 
 
-This project demonstrates how to deploy a **secure LAMP stack** on an AWS EC2 instance using **Ubuntu 22.04**, Apache, MariaDB, and PHP.
+Welcome to my portfolio project showcasing two approaches to deploying a LAMP stack (Linux, Apache, MySQL, PHP) on AWS EC2:
 
 
-## 🔧 Technologies Used
+- ✅ Manual Deployment: Command-by-command installation
+
+- 🤖 Automated Deployment: Infrastructure as Code using Ansible
 
 
-- Amazon EC2 (Ubuntu 22.04)
-- Apache Web Server
-- MariaDB (MySQL drop-in)
-- PHP 8
-- SSH and Keypair Authentication
-- UFW Firewall Configuration
+This project demonstrates foundational skills in Linux administration, cloud infrastructure (AWS), and automation — essential for roles in DevOps, Cloud, System Admin, and Cybersecurity.
+
+---
+
+## 📁 Repository Structure
 
 
-## 📸 Screenshots
+lamp-project-repo/
+├── manual-setup/        # Manual LAMP stack setup on Ubuntu .EC2
+│   ├── screenshots/
+│   └── README.md
+├── anse-lamp-setuptup/       # Automated LAMP setup using Ansi.ble
+│   ├── lamp.yaml
+│   ├── inventory
+│   ├── screenshots/
+│   └── README.md
+└── README.md       # M# Main project documenion.tat
 
 
-All screenshots of each step (EC2 setup, SSH, LAMP install, database creation, testing) are stored in the `screenshots/` folder.
+---
 
-
-## 🔐 Security Configurations
-
-
-- Configured `ufw` firewall to allow only required ports
-- Used non-root DB user for database access
-- Enforced SSH key-based login (no password login)
-
-
-## 🚀 Skills Demonstrated
-
-
-- Linux command line usage
-- Web server and DB setup from scratch
-- Basic network and firewall configuration
-- Manual deployment of PHP + SQL app
-- SSH access and keypair management
-
-
-## 📁 Folder Structure
-
-
-lamp-stack-on-aws/
-├── README.md
-├── screenshots/
-│ ├── ec2-launch.png
-│ ├── ssh-access.png
-│ └── ... other screenshots ...
+## 🚀 Project Overviews
 
 
 
-## 📜 About Me
+#📦 Manual LAMP Setup
+ 
+ - EC2 instance launched on AWS (Ubuntu)
+
+ - Apache, MySQL, and PHP installed manually via terminal
+
+ - SSH used to configure server
+
+ - PHP Info page tested for validation
+
+ - Common issues (e.g. key permissions, firewall, MySQL access) documented
+
+# 🤖 Automated LAMP Setup using Ansible
+
+ - Ansible installed and configured on control node (Mac)
+
+ - Inventory and playbook files created
+
+ - LAMP stack installed with a single command (ansible-playbook)
+
+ - Troubleshooting handled for SSH timeouts, inventory parsing, syntax errors
+
+ - Shows real-world automation workflow
+
+---
+
+## 🧠 Skills Demonstrated
+
+ - 🔐 EC2 Key Management & SSH Access
+
+ - 🐧 Linux Server Administration (Ubuntu)
+
+ - 🌐 Apache Web Server Setup
+
+ - 🛢️ MySQL Secure Installation & Access
+
+ - 🧪 PHP Deployment & Testing
+
+ - 🛠️ Ansible Automation (YAML, Inventory, Playbooks)
+
+ - 💻 Git & GitHub Project Structuring
+
+ - 🐙 Command-line tools & troubleshooting
+
+---
+
+## 🎯 Career Objective
 
 
+I am an aspiring DevOps, Cloud, or Cybersecurity Engineer currently pursuing a PG Diploma in Infrastructure Management.
 
-**Name:** Alan Varghese  
+My goal is to transition into the IT industry through hands-on, real-world projects that showcase my technical capabilities and ability to learn quickly.
 
-**Current Status:** PG Diploma Student in Infrastructure Management  
 
-**Career Goal:** Transition into DevOps or Cybersecurity  
+This project marks my first step into professional cloud and DevOps workflows.
 
-**Skills Being Developed:** Linux, Cloud (AWS), Networking (CCNA), Automation, Security Fundamentals  
 
-**LinkedIn:** www.linkedin.com/in/alan-varghese-dev/  
+ Linkedin: https://www.linkedin.com/in/alan-varghese-dev/
 
-**GitHub:** [github.com/alanvarghese-dev](https://github.com/alanvarghese-dev)
+ github: https://github.com/alanvarghese-dev/
 
-> I'm currently building hands-on projects to bridge the gap in my experience and gain real-world practical skills in IT infrastructure, DevOps, and security.
