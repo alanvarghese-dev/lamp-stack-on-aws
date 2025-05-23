@@ -17,15 +17,15 @@ This project demonstrates foundational skills in Linux administration, cloud inf
 
 
 lamp-project-repo/
-├── manual-setup/        # Manual LAMP stack setup on Ubuntu .EC2
+├── manual-setup/        # Manual LAMP stack setup on Ubuntu EC2
 │   ├── screenshots/
 │   └── README.md
-├── anse-lamp-setuptup/       # Automated LAMP setup using Ansi.ble
+├── ansible-lamp-setup/       # Automated LAMP setup using Ansible
 │   ├── lamp.yaml
 │   ├── inventory
 │   ├── screenshots/
 │   └── README.md
-└── README.md       # M# Main project documenion.tat
+└── README.md       # Main project documenion
 
 
 ---
